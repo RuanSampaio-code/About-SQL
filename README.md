@@ -33,11 +33,11 @@ DCL - Linguagem de controle
 
 SQL - Consulta de dados (SELECT)
 
-### Criar banco de dados
+## Criar banco de dados
 
 CREATE DATABASE cadastro;
 
-### Criar tabela
+## Criar tabela
 
 CRATE TABLE pessoas (
 
@@ -51,7 +51,7 @@ Campo4 float,
 
  );
 
-### Tipos primitivos banco de dados MySQL
+## Tipos primitivos banco de dados MySQL
 
 - Númerico
     - Inteiro
@@ -75,19 +75,19 @@ Campo4 float,
 - Espacial
     - Geometry, polygon, Point.
 
-### Remover um banco
+## Remover um banco
 
 DROP DATABASE nomedobanco;
 
-### Usar um banco e aplicar mudanças
+## Usar um banco e aplicar mudanças
 
 USE banco;
 
-### Remover tabela
+## Remover tabela
 
 DROP TABLE tabela;
 
-### Alterar uma tabela (ADICIONANDO COLUNA(
+## Alterar uma tabela (ADICIONANDO COLUNA(
 
 ALTER TABLE nometabela ADD COLUM nomecoluna tipo( );
 
@@ -127,15 +127,15 @@ ALTER TABLE nomeantigo
 
 RENAME TO nomenovo;
 
-### Selecionar todos os dados de tabela
+## Selecionar todos os dados de tabela
 
 SELECT * FROM nometabela;
 
-### Selecionar dados específicos
+## Selecionar dados específicos
 
 SELECT dadoespecifico FROM nometabela;
 
-### CRUD
+## CRUD
 
 C = create = INSERT
 
@@ -145,29 +145,29 @@ U = update
 
 D = Delete 
 
-### Inserir dados na tabela
+## Inserir dados na tabela
 
 INSERT INTO tabela (nome,salário,data)
 
 VALUES (“nome1” , 5000,“ ano-mes-dia”)
 
-### Inserir dados mais específicos
+## Inserir dados mais específicos
 
 SELECT * FROM nometabela
 
 WHERE dados > 5000;
 
-### UPDATE
+## UPDATE
 
 UPDATE nometabela SET coluna;
 
 //SET é para delimitar a coluna
 
-### Remover dados da tabela
+## Remover dados da tabela
 
 DELETE FROM tabela WHERE coluna = dado;
 
-### CONSTRAINS (restrições)
+## CONSTRAINS (restrições)
 
 Usadas para especificar regras para dados em uma tabela. Usado pra limitar os tipos de dados.
 
@@ -177,7 +177,7 @@ Usadas para especificar regras para dados em uma tabela. Usado pra limitar os ti
 - FOREIGN KEY - relaciona tabelas, é um campo q aponta pra uma chave primária de outra tabela
 - DEFAULT - valor padrão pra uma coluna.
 
-### SOBRE JOIN
+## SOBRE JOIN
 
 Consulta entre duas ou mais tabelas por meio de uma relação .
 
