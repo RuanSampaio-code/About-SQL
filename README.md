@@ -1,7 +1,11 @@
-# Welcome to My studies in About-SQL
+# Welcome to My studies About-SQL
 ![Banco de dados imagem](https://d1lc5plzz0mq74.cloudfront.net/wp-content/uploads/2021/11/28145724/Banco-de-dados.jpg)
 
- # Banco de dados MySQL
+Neste Repositório colocarei anotações sobre tudo que estou aprendendo sobre SQL e espero ajudar quem tambem esteja apredendo.
+
+Bons estudos :)
+
+# Banco de dados MySQL
 
 Banco de dados são conjuntos de tabelas tabelas, tabelas são um conjunto de Registro, registros são um conjunto de campos.
 
