@@ -1,5 +1,5 @@
 # Welcome to My studies About-SQL
-![Banco de dados imagem](https://d1lc5plzz0mq74.cloudfront.net/wp-content/uploads/2021/11/28145724/Banco-de-dados.jpg)
+![Banco de dados imagem](https://img.freepik.com/free-photo/server-room-interior-datacenter-3d-render_124437-1252.jpg?w=1480)
 
 Neste Repositório colocarei anotações sobre tudo que estou aprendendo sobre SQL e espero ajudar quem tambem esteja apredendo.
 
